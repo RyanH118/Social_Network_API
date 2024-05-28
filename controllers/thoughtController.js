@@ -37,7 +37,7 @@ const thoughtController = {
             if (!user) {
                 return res
                     .status(404)
-                    .json({ message: "Thought created but no user with this id!" });
+                    .json({ message: "Thought created" });
             }
 
             return res.status(200).json(newThought);
