@@ -21,7 +21,13 @@ const reactionSchema = new Schema(
             get: function (date) {
                 return new Date(date).toLocaleString();
             }
-        }
+        },
+    },
+    {
+        toJSON: {
+            getters: true
+        },
+        id: false,
     }
 );
 
@@ -50,7 +56,8 @@ const thoughtSchema = new Schema(
         toJSON: {
             virtuals: true,
             getters: true
-        }
+        },
+        id: false,
     }
 );
 
