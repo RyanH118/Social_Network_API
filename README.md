@@ -14,7 +14,15 @@ npm start
 
 ## Usage
 
-![alt text]()
+![alt text](./images/Users.png)
+
+![alt text](./images/Friend.png)
+
+![alt text](./images/Thought.png)
+
+![alt text](./images/Reaction.png)
+
+![alt text](./images/Delete.png)
           
 ## Questions
 If you have any questions or need further clarification, you can reach me at [ryanhinson118@gmail.com](mailto:ryanhinson118@gmail.com) or visit my GitHub profile at [https://github.com/RyanH118](https://github.com/RyanH118).
